@@ -8,11 +8,11 @@ class EditorData
 	toggles=6;
 	class ItemIDProvider
 	{
-		nextID=699;
+		nextID=700;
 	};
 	class LayerIndexProvider
 	{
-		nextID=3;
+		nextID=5;
 	};
 	class Camera
 	{
@@ -170,7 +170,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=529;
+		items=530;
 		class Item0
 		{
 			dataType="Group";
@@ -9617,7 +9617,7 @@ class Mission
 			};
 			id=634;
 			type="Land_Pallet_F";
-			atlOffset=3.4986954;
+			atlOffset=3.4984512;
 		};
 		class Item480
 		{
@@ -9634,7 +9634,7 @@ class Mission
 			};
 			id=635;
 			type="Land_Pallet_F";
-			atlOffset=3.4468765;
+			atlOffset=3.4466324;
 		};
 		class Item481
 		{
@@ -9651,7 +9651,7 @@ class Mission
 			};
 			id=636;
 			type="Land_Pallet_F";
-			atlOffset=3.6018066;
+			atlOffset=3.6015625;
 		};
 		class Item482
 		{
@@ -10559,7 +10559,7 @@ class Mission
 					name="Parking1_spawn";
 					type="Empty";
 					colorName="ColorBlack";
-					angle=222.76918;
+					angle=222.76917;
 					id=691;
 				};
 				class Item9
@@ -10646,6 +10646,16 @@ class Mission
 			name="CustomLayer";
 			id=698;
 			atlOffset=142.91;
+		};
+		class Item529
+		{
+			dataType="Marker";
+			position[]={3917.2717,102.46751,3941.8457};
+			name="center_mrk";
+			type="Empty";
+			colorName="ColorBlack";
+			id=699;
+			atlOffset=-7.6293945e-006;
 		};
 	};
 };
