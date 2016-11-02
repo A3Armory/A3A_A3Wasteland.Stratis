@@ -13,7 +13,8 @@ storeOwnerConfig = compileFinal str
 	["GenStore1", 1e9, 130, []],
 	["GenStore2", 1e9, 305, []],
 	["GenStore3", 4, 340, []],
-	["GenStore4", 1e9, 47, []],	
+	["GenStore4", 1e9, 47, []],
+	["GenStore5", 1e9, 100, []],
 
 	["GunStore1", 0, 5, []],
 	["GunStore2", 1, 130, []],
@@ -32,7 +33,8 @@ storeOwnerConfigAppearance = compileFinal str
 	["GenStore1", [["weapon", ""], ["uniform", "U_IG_Guerilla2_2"]]],
 	["GenStore2", [["weapon", ""], ["uniform", "U_IG_Guerilla2_3"]]],
 	["GenStore3", [["weapon", ""], ["uniform", "U_IG_Guerilla3_1"]]],
-	["GenStore4", [["weapon", ""], ["uniform", "U_IG_Guerilla1_1"]]],	
+	["GenStore4", [["weapon", ""], ["uniform", "U_IG_Guerilla1_1"]]],
+	["GenStore5", [["weapon", ""], ["uniform", "U_IG_Guerilla2_3"]]],
 
 	["GunStore1", [["weapon", ""], ["uniform", "U_B_SpecopsUniform_sgg"]]],
 	["GunStore2", [["weapon", ""], ["uniform", "U_O_SpecopsUniform_blk"]]],

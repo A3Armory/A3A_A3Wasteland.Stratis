@@ -8,18 +8,18 @@ class EditorData
 	toggles=6;
 	class ItemIDProvider
 	{
-		nextID=700;
+		nextID=712;
 	};
 	class LayerIndexProvider
 	{
-		nextID=5;
+		nextID=7;
 	};
 	class Camera
 	{
-		pos[]={3752.5857,39.506817,7920.5205};
-		dir[]={0.10391995,-0.7052924,0.70126259};
-		up[]={0.10338809,0.70891684,0.69767469};
-		aside[]={0.9892,6.1292667e-008,-0.14658964};
+		pos[]={2590.7595,98.479706,5487.0933};
+		dir[]={-0.94395179,-0.15252879,0.29273996};
+		up[]={-0.14568582,0.98829627,0.04518028};
+		aside[]={0.29620498,2.2228051e-008,0.95512801};
 	};
 };
 binarizationWanted=0;
@@ -170,7 +170,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=530;
+		items=541;
 		class Item0
 		{
 			dataType="Group";
@@ -9617,7 +9617,7 @@ class Mission
 			};
 			id=634;
 			type="Land_Pallet_F";
-			atlOffset=3.4984512;
+			atlOffset=3.4986954;
 		};
 		class Item480
 		{
@@ -9634,7 +9634,7 @@ class Mission
 			};
 			id=635;
 			type="Land_Pallet_F";
-			atlOffset=3.4466324;
+			atlOffset=3.4468765;
 		};
 		class Item481
 		{
@@ -9651,7 +9651,7 @@ class Mission
 			};
 			id=636;
 			type="Land_Pallet_F";
-			atlOffset=3.6015625;
+			atlOffset=3.6018066;
 		};
 		class Item482
 		{
@@ -10559,7 +10559,7 @@ class Mission
 					name="Parking1_spawn";
 					type="Empty";
 					colorName="ColorBlack";
-					angle=222.76917;
+					angle=222.76915;
 					id=691;
 				};
 				class Item9
@@ -10656,6 +10656,144 @@ class Mission
 			colorName="ColorBlack";
 			id=699;
 			atlOffset=-7.6293945e-006;
+		};
+		class Item530
+		{
+			dataType="Marker";
+			position[]={1573.39,1.8186994e+011,5180.0391};
+			name="Occupation_1";
+			type="Empty";
+			colorName="ColorYellow";
+			angle=17.792999;
+			id=700;
+			atlOffset=1.8186994e+011;
+		};
+		class Item531
+		{
+			dataType="Marker";
+			position[]={1644.3978,5.5,5460.1548};
+			name="Occupation_2";
+			type="Empty";
+			colorName="ColorYellow";
+			angle=17.792999;
+			id=701;
+		};
+		class Item532
+		{
+			dataType="Marker";
+			position[]={1722.7932,5.5,5743.1167};
+			name="Occupation_3";
+			type="Empty";
+			colorName="ColorYellow";
+			angle=17.792999;
+			id=702;
+		};
+		class Item533
+		{
+			dataType="Marker";
+			position[]={2014.3019,5.7095947,5668.4404};
+			name="Occupation_4";
+			type="Empty";
+			colorName="ColorYellow";
+			angle=17.792999;
+			id=703;
+			atlOffset=3.3378601e-006;
+		};
+		class Item534
+		{
+			dataType="Marker";
+			position[]={2500,83,5616.5};
+			name="Occupation_5";
+			type="Empty";
+			colorName="ColorYellow";
+			angle=17.792999;
+			id=704;
+			atlOffset=1.4725037;
+		};
+		class Item535
+		{
+			dataType="Marker";
+			position[]={2089.8286,5.4100037,5822.9199};
+			name="Occupation_6";
+			type="Empty";
+			colorName="ColorYellow";
+			angle=17.792999;
+			id=705;
+			atlOffset=3.8146973e-006;
+		};
+		class Item536
+		{
+			dataType="Marker";
+			position[]={1882,4,5755};
+			name="Occupation_7";
+			type="Empty";
+			colorName="ColorYellow";
+			angle=17.792999;
+			id=706;
+			atlOffset=-1.6624999;
+		};
+		class Item537
+		{
+			dataType="Marker";
+			position[]={1831.3456,5.5100021,5362.7568};
+			name="Occupation_8";
+			type="Empty";
+			colorName="ColorYellow";
+			angle=17.792999;
+			id=707;
+			atlOffset=1.9073486e-006;
+		};
+		class Item538
+		{
+			dataType="Marker";
+			position[]={2450.5,82,5676.5};
+			name="Occupation_9";
+			type="Empty";
+			colorName="ColorYellow";
+			angle=17.792999;
+			id=708;
+			atlOffset=8.0987549;
+		};
+		class Item539
+		{
+			dataType="Group";
+			side="Civilian";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2568,83.13868,5497.0498};
+						angles[]={0,1.6772624,0};
+					};
+					side="Civilian";
+					flags=7;
+					class Attributes
+					{
+						init="[this] spawn A3W_fnc_setupStoreNPC";
+						name="GenStore5";
+					};
+					id=710;
+					type="C_man_1_1_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=709;
+		};
+		class Item540
+		{
+			dataType="Marker";
+			position[]={2586.5,164,5490};
+			name="GenStore5_objSpawn";
+			type="Empty";
+			colorName="ColorBlack";
+			id=711;
+			atlOffset=81.233749;
 		};
 	};
 };
