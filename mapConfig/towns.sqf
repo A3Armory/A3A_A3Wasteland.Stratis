@@ -21,7 +21,7 @@
 	//["Town_14", 15, "Isla Pythos"], // who the heck thought a town on an island was a good idea!?
 	["Town_15", 100, "Baldy Barracks"],
 	["Town_16", 175, "ol-Keiros"],
-	["Town_17", 175, "Tsoukalia"],
+	["Town_17", 100, "Limeri Bay"],
 	["Town_18", 100, "LZ Connor"],
 	["Town_19", 180, "Playa-del-Stragos"],
 	["Town_20", 250, "ol-Jay"]
