@@ -36,10 +36,10 @@ SideMissions =
 
 MoneyMissions =
 [
-	["mission_MoneyShipment", 0.8],
-	["mission_SunkenTreasure", 0.2],
-	["mission_drugsRunners", 0.5],
-	["mission_Roadblock", 0.5],
+	["mission_MoneyShipment", 0.4],
+	["mission_SunkenTreasure", 0.5],
+	["mission_drugsRunners", 0.4],
+	["mission_Roadblock", 0.8],
 	["mission_TownInvasion", 1]
 ];
 
