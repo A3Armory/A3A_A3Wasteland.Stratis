@@ -12,14 +12,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=48;
+		nextID=50;
 	};
 	class Camera
 	{
-		pos[]={2123.6125,17.305696,5913.0693};
-		dir[]={0.85494947,-0.14601506,0.49776068};
-		up[]={0.12619214,0.9892807,0.073470436};
-		aside[]={0.50315219,1.1922384e-007,-0.8642112};
+		pos[]={2619.5864,124.21303,2996.4805};
+		dir[]={-0.89138299,-0.15537506,-0.42583212};
+		up[]={-0.14020787,0.98785567,-0.066980019};
+		aside[]={-0.43106765,-4.1113526e-007,0.90234363};
 	};
 };
 binarizationWanted=0;
@@ -3513,7 +3513,7 @@ class Mission
 						angles[]={0,4.5633707,0};
 					};
 					side="Civilian";
-					flags=3;
+					flags=7;
 					class Attributes
 					{
 						init="[this] spawn A3W_fnc_setupStoreNPC";
@@ -3521,14 +3521,12 @@ class Mission
 					};
 					id=193;
 					type="C_man_1_1_F";
-					atlOffset=0.47929382;
 				};
 			};
 			class Attributes
 			{
 			};
 			id=192;
-			atlOffset=0.47929382;
 		};
 		class Item44
 		{
@@ -3608,7 +3606,7 @@ class Mission
 						angles[]={0,4.8771706,0};
 					};
 					side="Civilian";
-					flags=7;
+					flags=3;
 					class Attributes
 					{
 						init="[this] spawn A3W_fnc_setupStoreNPC";
@@ -3616,12 +3614,14 @@ class Mission
 					};
 					id=199;
 					type="C_man_1_1_F";
+					atlOffset=0.56299829;
 				};
 			};
 			class Attributes
 			{
 			};
 			id=198;
+			atlOffset=0.56299829;
 		};
 		class Item47
 		{
@@ -5180,12 +5180,12 @@ class Mission
 		class Item187
 		{
 			dataType="Marker";
-			position[]={4115.1382,223.82782,4586.918};
+			position[]={2619.6213,62.175903,2996.4966};
 			name="Sniper_5";
 			type="Empty";
 			colorName="ColorCIV";
 			id=361;
-			atlOffset=-0.016235352;
+			atlOffset=-36.143692;
 		};
 		class Item188
 		{
@@ -5220,7 +5220,7 @@ class Mission
 		class Item191
 		{
 			dataType="Marker";
-			position[]={3525.5034,202.63171,4926.7798};
+			position[]={3522.7983,200.85101,4912.2793};
 			name="Sniper_9";
 			type="Empty";
 			colorName="ColorCIV";
@@ -7027,7 +7027,7 @@ class Mission
 			};
 			id=473;
 			type="Land_ToiletBox_F";
-			atlOffset=-0.00048828125;
+			atlOffset=0.013000488;
 		};
 		class Item294
 		{
@@ -8306,7 +8306,7 @@ class Mission
 			};
 			id=545;
 			type="Land_FieldToilet_F";
-			atlOffset=-1.5258789e-005;
+			atlOffset=1.5258789e-005;
 		};
 		class Item366
 		{
@@ -8396,6 +8396,7 @@ class Mission
 			};
 			id=550;
 			type="Land_ConcretePipe_F";
+			atlOffset=0.18322754;
 		};
 		class Item371
 		{
@@ -8840,6 +8841,7 @@ class Mission
 			};
 			id=576;
 			type="Land_ConcretePipe_F";
+			atlOffset=0.10057068;
 		};
 		class Item396
 		{
@@ -12464,6 +12466,7 @@ class Mission
 			};
 			id=816;
 			type="Land_UWreck_Heli_Attack_02_F";
+			atlOffset=-2.3841858e-007;
 		};
 		class Item598
 		{
