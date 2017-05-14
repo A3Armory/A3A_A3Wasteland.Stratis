@@ -12,14 +12,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=56;
+		nextID=62;
 	};
 	class Camera
 	{
-		pos[]={1830.2214,25.111109,5024.8213};
-		dir[]={0.62934005,-0.047277376,0.77576315};
-		up[]={0.02982932,0.99886781,0.036770802};
-		aside[]={0.77663106,1.7676939e-006,-0.6300413};
+		pos[]={4589.98,147.96153,5297.3237};
+		dir[]={-0.89934832,-0.26459071,0.3482199};
+		up[]={-0.24684057,0.96432698,0.095573664};
+		aside[]={0.36108622,1.2029341e-006,0.93258333};
 	};
 };
 binarizationWanted=0;
@@ -5005,7 +5005,7 @@ class Mission
 			type="Empty";
 			colorName="ColorWhite";
 			id=342;
-			atlOffset=4.3365145;
+			atlOffset=6.6332588;
 		};
 		class Item170
 		{
@@ -8812,17 +8812,17 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={4612.0972,132.39333,5297.0942};
-				angles[]={0,5.0941277,0};
+				position[]={4611.4507,129.93661,5297.5913};
+				angles[]={0.0099949092,5.0941277,0.049956869};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 				init="[this] call A3W_fnc_setupMissionObject; this setVariable ['persistent', true]";
 			};
 			id=575;
 			type="Land_i_Barracks_V2_dam_F";
-			atlOffset=2.4177094;
 		};
 		class Item395
 		{
@@ -8849,7 +8849,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={4605.8481,131.19095,5272.2041};
-				angles[]={0,0.31665337,0};
+				angles[]={0.0024897563,0.31665337,0.092236429};
 			};
 			side="Empty";
 			flags=4;
@@ -8866,8 +8866,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={4633.96,131.10333,5307.1816};
-				angles[]={0.13664399,4.9452438,0.012496647};
+				position[]={4632.9443,131.47543,5303.4082};
+				angles[]={0.11696389,4.9452438,0.052450236};
 			};
 			side="Empty";
 			flags=4;
@@ -8885,7 +8885,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={4607.2705,130.98323,5280.543};
-				angles[]={0,0.49199128,0};
+				angles[]={0.03747917,0.49199128,0.057438571};
 			};
 			side="Empty";
 			flags=4;
@@ -9046,8 +9046,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={4618.7104,130.75415,5299.6519};
-				angles[]={0,3.5419903,0};
+				position[]={4617.999,130.72581,5298.4263};
+				angles[]={0.01749678,3.5419903,0.069885373};
 			};
 			side="Empty";
 			flags=4;
