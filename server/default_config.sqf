@@ -106,7 +106,7 @@ PDB_PlayerFileID = "A3W_";         // Player savefile prefix (if you run multipl
 PDB_ObjectFileID = "A3W_";         // Object savefile prefix (if you run multiple servers, change it to a unique value for each server)
 
 // extDB settings
-A3W_extDB_ServerID = 1;            // Server ID to use in the database for the particular server running off this config file; if you have multiple servers, they all need different IDs
+A3W_extDB_ServerID = 2;            // Server ID to use in the database for the particular server running off this config file; if you have multiple servers, they all need different IDs
 A3W_extDB_Environment = "normal";  // Value used to separate player & object data from multiple environments running on the same map (e.g. "normal", "hardcore", "dev", etc. can be whatever you want)
 A3W_extDB_playerSaveCrossMap = 0;  // Player saves are shared across maps in same environment, with player location saved separately for each map; death resets save on all maps (0 = no, 1 = yes)
 A3W_extDB_GhostingTimer = 5*60;    // Number of seconds a player has to wait when switching between servers running the same map (0 = disabled)
@@ -159,7 +159,7 @@ A3W_payrollAmount = 350;           // Amount of money rewarded per territory on 
 A3W_serverMissions = 1;            // Enable server missions (0 = no, 1 = yes)
 A3W_missionsDifficulty = 0;        // Missions difficulty (0 = normal, 1 = hard)
 A3W_missionFarAiDrawLines = 1;     // Draw small red lines on the map from mission markers to individual units & vehicles which are further away than 75m from the objective (0 = no, 1 = yes)
-A3W_missionsQuantity = 5;          // Number of missions running at the same time (0 to 6)
+A3W_missionsQuantity = 4;          // Number of missions running at the same time (0 to 6)
 A3W_heliPatrolMissions = 1;        // Enable missions involving flying helicopters piloted by AI (0 = no, 1 = yes)
 A3W_underWaterMissions = 1;        // Enable underwater missions which require diving gear (0 = no, 1 = yes)
 A3W_mainMissionDelay = 5*60;       // Time in seconds between Main Missions
